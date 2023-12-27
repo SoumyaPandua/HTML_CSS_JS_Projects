@@ -1,0 +1,36 @@
+body{
+    position: relative;
+    height: 100vh;
+    background-color: #212121;
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+#num{
+    text-align: center;
+    font-size: 2rem;
+}
+#button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 0.5rem 0.6rem;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0.25rem 0.125rem;
+    cursor: pointer;
+}
